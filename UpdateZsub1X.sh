@@ -6,7 +6,7 @@ zsub1x-cli stop
 sleep 30
 killall -15 zsub1xd
 rm /usr/local/bin/zsub1x-cli
-rm /usr/local/bin/zsub1d
+rm /usr/local/bin/zsub1xd
 mv zsub1x-cli /usr/local/bin/
 mv zsub1xd /usr/local/bin/
 zsub1xd -daemon
