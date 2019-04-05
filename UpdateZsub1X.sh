@@ -9,9 +9,8 @@ rm /usr/local/bin/zsub1x-cli
 rm /usr/local/bin/zsub1d
 mv zsub1x-cli /usr/local/bin/
 mv zsub1xd /usr/local/bin/
-zsub1d -daemon
+zsub1xd -daemon
 rm zsub1x-1.3.4-x86_64-linux.tar.gz
 rm zsub1x-qt
-rm -r PaxHeaders.28849
 sleep 20
-watch 3dcoin-cli mnsync status
+watch zsub1x-cli mnsync status
