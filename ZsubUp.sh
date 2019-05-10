@@ -12,4 +12,4 @@ mv zsub1xd /usr/local/bin/
 zsub1xd -daemon -reindex
 rm zSub1x_1.4.0_Linux_daemon.zip
 sleep 20
-watch zsub1x-cli mnsync status
+watch zsub1x-cli getblockcount
