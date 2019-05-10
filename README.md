@@ -12,3 +12,17 @@ chmod +x UpdateZsub1X.sh
 
 This script work only if your wallet is installed withour systemctl and if is installed in usr/local/bin folder
 
+# Zsub1X_Update_V1.4
+Update Zsub1x to Version 1.4
+
+
+For update yor linux wallet type in your vps:
+
+wget https://raw.githubusercontent.com/Simo190/Zsub1X_Update_V1.3.4/master/ZsubUp.sh
+
+chmod +x ZsubUp.sh
+
+./ZsubUp.sh
+
+This script work only if your wallet is installed withour systemctl and if is installed in usr/local/bin folder
+
