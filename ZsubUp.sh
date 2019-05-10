@@ -9,6 +9,7 @@ rm /usr/local/bin/zsub1x-cli
 rm /usr/local/bin/zsub1xd
 mv zsub1x-cli /usr/local/bin/
 mv zsub1xd /usr/local/bin/
+rm .zsub1x/peers.dat
 zsub1xd -daemon -reindex
 rm zSub1x_1.4.0_Linux_daemon.zip
 sleep 20
